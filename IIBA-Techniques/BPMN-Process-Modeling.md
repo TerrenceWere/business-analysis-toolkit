@@ -55,3 +55,64 @@ Business Process Model and Notation (BPMN) is a standard for business process mo
 ### AS-IS Process Model
 ```bpmn
 [Start] → [Current Activity 1] → [Gateway?] → [Activity 2] → [End]
+TO-BE Process Model
+bpmn
+[Start] → [Improved Activity 1] → [Automated Task] → [End]
+Modeling Guidelines
+Best Practices
+Start Simple: Begin with high-level process maps
+
+Consistent Level: Maintain same detail level in single diagram
+
+Clear Labels: Use verb-noun format for activities
+
+Minimize Crossings: Arrange to avoid crossing lines
+
+Swimlane Logic: Group by roles, not departments
+
+Common Patterns
+Approval Process
+text
+[Submit Request] → [Manager Review] → {Approved?} 
+    → Yes → [Process Request] → [End]
+    → No → [Notify Requester] → [End]
+Error Handling
+text
+[Process Order] → [Error?] 
+    → Yes → [Log Error] → [Manual Review] → [Resume]
+    → No → [Continue Processing]
+Example: Order Fulfillment Process
+AS-IS Process
+Pool: Customer Service
+
+Start → [Receive Order] → [Manual Data Entry] → [Check Inventory]
+
+Pool: Warehouse
+
+[Pick Items] → [Pack Order] → [Ship Order] → End
+
+TO-BE Process
+Pool: Customer Service
+
+Start → [Receive Order] → [System Validates] → [Auto-Confirm]
+
+Pool: Warehouse
+
+[Auto-Pick List] → [Scan Items] → [Auto-Ship] → End
+
+Validation Checklist
+All start events have triggers defined
+
+All end events represent process completion
+
+Gateways have clear decision criteria
+
+Swimlanes represent actual organizational roles
+
+Process has measurable outcomes
+
+Exception paths are modeled
+
+Data objects show information flow
+
+IIBA Reference: BABOK Guide - Process Modeling
