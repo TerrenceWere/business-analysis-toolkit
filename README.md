@@ -1,37 +1,54 @@
-# Business Analysis Toolkit
+# IIBA Business Analysis Framework
 
-**Professional frameworks and templates for effective business analysis**
+**Professionally aligned with IIBA BABOK® Guide v3.0**
 
-This repository contains proven templates and frameworks I've developed over 7+ years of business analysis experience. Each template is designed to streamline the BA process and ensure consistent, high-quality deliverables.
+This repository contains Business Analysis frameworks, templates, and artifacts aligned with the International Institute of Business Analysis (IIBA) standards and the BABOK® Guide.
 
-## 📁 Toolkit Contents
+## 🎯 IIBA Knowledge Areas Covered
 
-### 📋 Requirements Management
-- Business Requirements Document Template
-- User Stories & Acceptance Criteria
-- Requirements Traceability Matrix
+### 📋 Business Analysis Planning & Monitoring
+- Stakeholder Analysis & Engagement
+- Business Analysis Approach
+- Requirements Management Plan
 
-### 🎯 Process Improvement  
-- AS-IS / TO-BE Process Mapping
-- Swimlane Diagram Templates
-- Process Optimization Framework
+### 🔍 Elicitation & Collaboration  
+- Requirements Workshops
+- Interview Techniques
+- Collaboration Frameworks
 
-### 🤝 Stakeholder Management
-- Stakeholder Analysis Matrix
-- Communication Plan Template
-- RACI Matrix Template
+### 📊 Requirements Life Cycle Management
+- Requirements Traceability
+- Change Management
+- Requirements Prioritization
 
-### 📊 Quality Assurance
-- UAT Test Case Template
-- Defect Log & Tracking
-- Test Plan Framework
+### 🎯 Strategy Analysis
+- Business Needs Analysis
+- Solution Scope Definition
+- Business Case Development
 
-## 🎯 My BA Philosophy
-I believe effective business analysis bridges the gap between business needs and technical solutions through:
-- **Structured requirements gathering**
-- **Clear communication** across stakeholders  
-- **Data-driven decision making**
-- **Measurable success criteria**
+### 🛠️ Requirements Analysis & Design Definition
+- Process Modeling (BPMN)
+- Use Case Development
+- Requirements Specification
+
+### ✅ Solution Evaluation
+- Solution Performance Analysis
+- Business Value Measurement
+- Implementation Support
+
+## 🏆 IIBA Techniques Included
+- **MoSCoW Prioritization**
+- **SWOT Analysis** 
+- **Business Process Modeling (BPMN)**
+- **User Stories & Acceptance Criteria**
+- **Decision Analysis**
+- **Root Cause Analysis**
+
+## 📚 About IIBA Standards
+This toolkit follows the IIBA BABOK® Guide framework, ensuring industry-standard business analysis practices that are:
+- **Consistent** across projects and organizations
+- **Scalable** for projects of any size
+- **Professionally recognized** globally
 
 ---
-*Part of my Business Analysis portfolio | [View all my projects](https://github.com/TerrenceWere)*
+*Maintained by Henry Shitubi, Business Analyst | IIBA Standards Advocate*
